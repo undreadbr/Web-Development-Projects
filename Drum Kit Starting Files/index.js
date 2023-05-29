@@ -17,7 +17,7 @@ document.querySelectorAll('button').forEach(item => {
 
 //detecting key
 
-document.addEventListener("keypress",function(event){
+document.addEventListener("keydown",function(event){
   makeSound(event.key);
 });
 
